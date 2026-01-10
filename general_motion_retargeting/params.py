@@ -67,6 +67,10 @@ IK_CONFIG_DICT = {
     "xrobot":{
         "unitree_g1": IK_CONFIG_ROOT / "xrobot_to_g1.json",
     },
+
+    "bvh_fzmotion":{
+        "unitree_g1": IK_CONFIG_ROOT / "bvh_fzmotion_to_g1.json",
+    },
 }
 
 
