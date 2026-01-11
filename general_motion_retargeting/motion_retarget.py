@@ -215,8 +215,11 @@ class GeneralMotionRetargeting:
                 next_error = self.error2()
                 num_iter += 1
                 
-            
-        return self.configuration.data.qpos.copy()
+        # # 位置 (x, y, z)
+        # pos = data.xpos[body_id]  # shape: (3,)
+        # # 四元数 (w, x, y, z)
+        # quat = data.xquat[body_id]  # shape: (4,)
+        return self.configuration.data.qpos.copy(), self.configuration.data.xpos.copy(), self.configuration.data.xquat.copy()
 
 
     def error1(self):
