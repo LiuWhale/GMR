@@ -28,7 +28,7 @@
         "pelvis": [
             "Hips",
             0,
-            50,
+            200,
             [
                 0.0,
                 0.0,
@@ -44,7 +44,7 @@
         "left_hip_yaw_link": [
             "LeftUpLeg",
             0,
-            15,
+            25,
             [
                 0.0,
                 0.0,
@@ -60,7 +60,7 @@
         "left_knee_link": [
             "LeftLeg",
             0,
-            5,
+            20,
             [
                 0.0,
                 0.0,
@@ -75,8 +75,8 @@
         ],
         "left_ankle_roll_link": [
             "LeftFoot",
+            100,
             50,
-            10,
             [
                 0.0,
                 0.0,
@@ -92,7 +92,7 @@
         "right_hip_yaw_link": [
             "RightUpLeg",
             0,
-            15,
+            25,
             [
                 0.0,
                 0.0,
@@ -108,7 +108,7 @@
         "right_knee_link": [
             "RightLeg",
             0,
-            5,
+            20,
             [
                 0.0,
                 0.0,
@@ -123,8 +123,8 @@
         ],
         "right_ankle_roll_link": [
             "RightFoot",
+            100,
             50,
-            10,
             [
                 0.0,
                 0.0,
@@ -254,7 +254,7 @@
         "pelvis": [
             "Hips",
             100,
-            5,
+            50,
             [
                 0.0,
                 0.0,
@@ -270,7 +270,7 @@
         "left_hip_yaw_link": [
             "LeftUpLeg",
             10,
-            5,
+            20,
             [
                 0.0,
                 0.0,
@@ -286,7 +286,7 @@
         "left_knee_link": [
             "LeftLeg",
             10,
-            5,
+            20,
             [
                 0.0,
                 0.0,
@@ -318,7 +318,7 @@
         "right_hip_yaw_link": [
             "RightUpLeg",
             10,
-            5,
+            20,
             [
                 0.0,
                 0.0,
@@ -334,7 +334,7 @@
         "right_knee_link": [
             "RightLeg",
             10,
-            5,
+            20,
             [
                 0.0,
                 0.0,
